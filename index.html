@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <main class="calculadora">
+        
+        <p id="resultado"></p>
+        <div class="numeros">
+            <button type="button" onclick="aparece('1')">1</button>
+            <button type="button" onclick="aparece('2')">2</button>
+            <button type="button" onclick="aparece('3')">3</button>
+            <button type="button" onclick="limpar()">del</button>
+            <button type="button" onclick="aparece('4')">4</button>
+            <button type="button" onclick="aparece('5')">5</button>
+            <button type="button" onclick="aparece('6')">6</button>
+            <button type="button" onclick="aparece('+')">+</button>
+            <button type="button" onclick="aparece('7')">7</button>
+            <button type="button" onclick="aparece('8')">8</button>
+            <button type="button" onclick="aparece('9')">9</button>
+            <button type="button" onclick="aparece('-')">-</button>
+            <button type="button" onclick="aparece('.')">.</button>
+            <button type="button" onclick="aparece('0')">0</button>
+            <button type="button" onclick="aparece('/')">/</button>
+            <button type="button" onclick="aparece('*')">X</button>
+            <button type="button" onclick="limparTudo()">reset</button>
+            <button type="button" onclick="result()">=</button>
+        </div>
+        <footer class="desenvolvido">&copy; Desenvolvido por nathan lds</footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
